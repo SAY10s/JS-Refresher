@@ -30,27 +30,32 @@
 // console.log(editedHobbies);
 // console.table(objectifiedHobbies);
 
-const data = ["Kate", "Bundy"];
-let [firstName, lastName] = data; //dowolne nazwy dla nowych zmiennych
+// const data = ["Kate", "Bundy"];
+// let [firstName, lastName] = data; //dowolne nazwy dla nowych zmiennych
 
-console.log(firstName, lastName);
+// console.log(firstName, lastName);
 
-const user = {
-  name: "Marilyn",
-  age: 15,
-};
+// const user = {
+//   name: "Marilyn",
+//   age: 15,
+// };
 
-let { name: userName, age } = user; //nazwy muszą być takie same, albo uywając aliasu wg "name: userName"
-console.log(userName, age);
+// let { name: userName, age } = user; //nazwy muszą być takie same, albo uywając aliasu wg "name: userName"
+// console.log(userName, age);
 
-const data2 = ["Marilyn", "Manson"];
+// const data2 = ["Marilyn", "Manson"];
 
-const mergedHobbies = [...data, ...data2]; //spread
+// const mergedHobbies = [...data, ...data2]; //spread
 
-console.log(mergedHobbies);
+// console.log(mergedHobbies);
 
-const extendedUser = {
-  isAdmin: true,
-  ...user,
-};
-console.log(extendedUser);
+// const extendedUser = {
+//   isAdmin: true,
+//   ...user,
+// };
+// console.log(extendedUser);
+const hobbies = ["Computer Spielen", "Backen", "Üben"];
+
+for (const hobby of hobbies) {
+  console.log(hobby);
+}
