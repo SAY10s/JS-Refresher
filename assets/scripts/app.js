@@ -42,3 +42,15 @@ const user = {
 
 let { name: userName, age } = user; //nazwy muszą być takie same, albo uywając aliasu wg "name: userName"
 console.log(userName, age);
+
+const data2 = ["Marilyn", "Manson"];
+
+const mergedHobbies = [...data, ...data2]; //spread
+
+console.log(mergedHobbies);
+
+const extendedUser = {
+  isAdmin: true,
+  ...user,
+};
+console.log(extendedUser);
