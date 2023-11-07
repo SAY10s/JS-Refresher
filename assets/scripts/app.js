@@ -54,8 +54,16 @@
 //   ...user,
 // };
 // console.log(extendedUser);
-const hobbies = ["Computer Spielen", "Backen", "Üben"];
+// const hobbies = ["Computer Spielen", "Backen", "Üben"];
 
-for (const hobby of hobbies) {
-  console.log(hobby);
+// for (const hobby of hobbies) {
+//   console.log(hobby);
+// }
+
+function greeter(greetFn) {
+  greetFn();
 }
+
+greeter(() => {
+  console.log("That's the function inside of function!");
+});
